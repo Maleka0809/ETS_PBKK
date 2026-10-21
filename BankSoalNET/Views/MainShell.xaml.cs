@@ -130,5 +130,17 @@ namespace BankSoalNET.Views
             login.Show();
             this.Close();
         }
+
+        public void ShowAdminDashboard() => NavAdminDashboard_Click(this, new RoutedEventArgs());
+        public void ShowKelolaMatkul() => NavKelolaMatkul_Click(this, new RoutedEventArgs());
+        public void ShowKelolaMateri() => NavKelolaMateri_Click(this, new RoutedEventArgs());
+        public void ShowKelolaSoal() => NavKelolaSoal_Click(this, new RoutedEventArgs());
+        public void ShowBankSoal() => NavBankSoal_Click(this, new RoutedEventArgs());
+        public void ShowHasilMahasiswa() => NavHasilMahasiswa_Click(this, new RoutedEventArgs());
+        public void ShowDokumenPdf() => NavDokumenPdf_Click(this, new RoutedEventArgs());
+
+        public void ShowModeBelajar() => NavModeBelajar_Click(this, new RoutedEventArgs());
+        public void ShowModeScoring() => NavModeScoring_Click(this, new RoutedEventArgs());
+        public void ShowRiwayatNilai() => NavRiwayatNilai_Click(this, new RoutedEventArgs());
     }
 }
